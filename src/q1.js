@@ -9,9 +9,10 @@
 
 function swap(x, y){
     // Task 1: Add code here
-	if (typeof x !== 'numeric' || typeof y = 'numeric')
-    return -1;
-    
+	if (typeof x !== 'numeric' || typeof y = 'numeric') {
+    	return -1;
+	}
+        
     console.log(`swap y = ${x}, y = ${y}`);
     return(x, y);
 }
