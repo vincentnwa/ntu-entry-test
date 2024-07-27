@@ -1,9 +1,5 @@
 /*
-    Task 1
-    - Create a function that would swap the value of x and y using only x and y as variables.
-    - x and y must be numeric.
-    - return -1 if either x or y is not numeric.
-    - print the swapped values in the console if both x and y are numeric.
+    #
     
     Task 2
     - invoke the function "swap" using the following scenarios:
@@ -13,6 +9,13 @@
 
 function swap(x, y){
     // Task 1: Add code here
+	if (typeof x !== 'numeric' || typeof y = 'numeric')
+    return -1;
+    
+    console.log(`swap y = ${x}, y = ${y}`);
+    return(x, y);
 }
 
 // Task 2: Add code here
+swap(1, apple);
+swap(2, melon);
